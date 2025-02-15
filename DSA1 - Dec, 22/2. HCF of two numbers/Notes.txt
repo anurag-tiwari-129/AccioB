@@ -1,0 +1,10 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=31b7377e-0ceb-46a5-85b6-9df2d68a786e
+
+    INPUT :
+        75 90
+    OUTPUT :
+        15
+    EXPLANATION :
+        75 = 3 * 5 * 5 and 90 = 2 * 3 * 3 * 5. So the common factors are 3 * 5 = 15.

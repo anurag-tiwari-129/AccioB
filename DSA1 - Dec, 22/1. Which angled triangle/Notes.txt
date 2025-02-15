@@ -1,0 +1,10 @@
+sitaram
+14/02/2025
+
+    If sides are Perpendicular, Base, Hypotenuse.
+        ACUTE-angled TRIANGLE :
+            (2 * hypo * hypo)  <  (base * base) + (perp * perp) + (hypo * hypo).
+        RIGHT-angled TRIANGLE :
+            (2 * hypo * hypo)  ==  (base * base) + (perp * perp) + (hypo * hypo).
+        OBTUSE-angled TRIANGLE :
+            (2 * hypo * hypo)  >  (base * base) + (perp * perp) + (hypo * hypo).
