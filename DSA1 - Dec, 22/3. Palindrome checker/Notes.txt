@@ -1,0 +1,10 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=c1448792-5b79-4cce-a2e0-5ff6d39c9844
+
+    INPUT :
+        121
+    OUTPUT :
+        true
+    EXPLANATION :
+        PALINDROME reads the same from backwards as forward.
