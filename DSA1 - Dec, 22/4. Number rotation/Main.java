@@ -1,6 +1,5 @@
 // sitaram
-// 14/02/2025
-// in class
+// dsa-1: dec, 06/12/2022
 import java.util.*;
 public class Main {
     public static void main(String[] args) {

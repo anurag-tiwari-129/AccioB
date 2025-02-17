@@ -1,0 +1,21 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=0af6f7a5-b611-4d69-978b-c5028d25878a
+
+    INPUT :
+        14
+    OUTPUT :
+        A
+        BC
+        CDE
+        DEFG
+        EFGHI
+        FGHIJK
+        GHIJKLM
+        HIJKLMNO
+        IJKLMNOPQ
+        JKLMNOPQRS
+        KLMNOPQRSTU
+        LMNOPQRSTUVW
+        MNOPQRSTUVWXY
+        NOPQRSTUVWXYZA
