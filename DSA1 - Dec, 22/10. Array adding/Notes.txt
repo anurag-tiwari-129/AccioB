@@ -1,0 +1,14 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=281f855c-1a46-4dfb-9239-79478b2c24ea
+
+    INPUT :
+        2
+        2 9
+        4
+        1 2 2 6
+    OUTPUT :
+        1
+        2
+        5
+        5
