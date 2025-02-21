@@ -1,0 +1,15 @@
+sitaram
+    XOR (^) :
+        Iska use bina extra variable ke two numbers swap karne ke liye hota hai.
+
+    EXAMPLE : 
+        Swapping 5 and 7
+        a = 5 (101), b = 7 (111)
+            a  =  a ^ b  →  101 ^ 111  =  010 (2)
+            b  =  a ^ b  →  010 ^ 111  =  101 (5)
+            a  =  a ^ b  →  010 ^ 101  =  111 (7)
+        Final Output: a = 7, b = 5 (Swapped)
+
+    XOR WORKS BECAUSE :
+        x ^ x = 0 (Same numbers cancel out)
+        x ^ 0 = x (XOR with 0 keeps number same)
