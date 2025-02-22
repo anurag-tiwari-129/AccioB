@@ -1,6 +1,5 @@
 // sitaram
-// 21/02/2025
-// in class
+// dsa-1: dec, 09/12/2022
 import java.util.*;
 public class Main {
     static int[] calSum(int a[], int b[], int n, int m) {
