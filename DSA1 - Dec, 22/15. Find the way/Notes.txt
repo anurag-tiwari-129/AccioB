@@ -1,0 +1,16 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=91028013-cace-4104-a833-33522013bbaf
+
+    INPUT :
+        3 3
+        0 1 0
+        0 1 0
+        1 0 1
+    OUTPUT :
+        1 0
+    EXPLANATION :
+        A mouse enters the matrix at cell (0,0) in left to right direction.
+            1. He goes in the same direction if he encounters a 0 and 
+            2. he takes a right turn when he encounters a 1, and changes that specific 1 to 0. 
+            3. Otherwise he may get stuck in a cycle!
