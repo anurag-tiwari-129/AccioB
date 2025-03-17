@@ -1,6 +1,5 @@
 // sitaram
-// 17/03/2025
-// in class
+// dsa-1: dec, 15/12/2022
 import java.util.*;
 public class Main {
     public static int[] findTheWay(int[][] matrix) {

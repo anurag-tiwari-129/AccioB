@@ -1,0 +1,12 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=0b1f1509-73d0-4035-b280-affb1c9bd1eb
+
+    INPUT :
+        2 3
+        3 7 3 
+        5 3 7
+    OUTPUT :
+        true
+    EXPLANATION :
+        A matrix is TOEPLITZ if every diagonal from left to right has the same elements.
