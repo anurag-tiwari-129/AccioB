@@ -34,7 +34,7 @@ public class Main {
             for(int j=0;j<col;j++)
                 for(int k=0;k<r_c;k++)
                     // ans[0][2] += A[0][0] * B[0][2]
-				    // ans[0][2] += A[0][1] * B[1][2]
+                    // ans[0][2] += A[0][1] * B[1][2]
 
                     ans[i][j] += A[i][k] * B[k][j];
                     // [r][c] = [r][r_c] * [r_c][c]
