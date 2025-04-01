@@ -1,0 +1,10 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=ad163b7c-8fea-42d3-a8e9-39d4d6a06b18
+
+    INPUT :
+        a man, a plan, a canal Panama
+    OUTPUT :
+        1
+    EXPLANATION :
+        PALINDROME string reads the same from backwards as forward.
