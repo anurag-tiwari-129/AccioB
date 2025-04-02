@@ -1,0 +1,14 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=de4ea74f-9003-43a2-aaa1-e5432a31b39e
+
+    INPUT :
+        5
+        BAACC
+    OUTPUT :
+        3
+        Bruno
+    EXPLANATION :
+        Adrian: A, B, C
+        Bruno: B, A, B, C
+        Goran: C, C, A, A, B, B

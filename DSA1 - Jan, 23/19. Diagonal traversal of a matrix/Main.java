@@ -1,6 +1,5 @@
 // sitaram
-// 17/03/2025
-// in class
+// dsa-1: jan, 18/01/2023
 import java.util.ArrayList;
 import java.util.Scanner;
 public class Main {
