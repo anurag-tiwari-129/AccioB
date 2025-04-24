@@ -1,0 +1,11 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=04c51a0a-2136-40da-8738-c391d6a9ef8f
+
+    INPUT :
+        6
+        5 2 1 4 6 3 
+    OUTPUT :
+        1 2 3 4 5 6
+    EXPLANATION :
+        TC - O(n * n) && SC - O(1)
