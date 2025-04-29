@@ -16,7 +16,7 @@ public class Main {
         // your code here
 
         for(int i=0;i<N-1;i++){
-            int swap = 0;
+            int swap = 0; // check adaptibility
             for(int j=0;j<N-1-i;j++){
                 if(arr[j] > arr[j + 1]){
                     swap++;
@@ -25,7 +25,9 @@ public class Main {
                     arr[j + 1] = tem;
                 }
             }
-            if(swap == 0) break;
+            if(swap == 0) 
+                // adaptive, run 1 time only, array is already sorted
+                break;
         }
     }
 }
