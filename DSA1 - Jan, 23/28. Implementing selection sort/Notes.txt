@@ -1,6 +1,6 @@
 sitaram
     LINK :
-        https://course.acciojob.com/idle?question=04c51a0a-2136-40da-8738-c391d6a9ef8f
+        https://course.acciojob.com/idle?question=90ddafa3-7d35-44c4-be3d-82da7034485c
 
     INPUT :
         6
@@ -9,4 +9,4 @@ sitaram
         1 2 3 4 5 6
     EXPLANATION :
         TC - O(n * n) && SC - O(1)
-        Stable & made Adaptive.
+        Not stable & adaptive.
