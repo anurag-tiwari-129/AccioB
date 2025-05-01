@@ -1,0 +1,13 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=85d55467-e92a-4b18-9cac-1341101a3b0b
+
+    INPUT :
+        6
+        5 2 1 4 6 3 
+    OUTPUT :
+        1 2 3 4 5 6
+    EXPLANATION :
+        1. Run a loop while the array is not sorted by Bubble sort.
+        2. Sort odd indexed item with their adjacent item.
+        3. Sort even indexed item with their adjacent item.
