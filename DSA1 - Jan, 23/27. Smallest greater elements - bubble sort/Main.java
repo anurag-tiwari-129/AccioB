@@ -1,6 +1,5 @@
 // sitaram
-// 24/04/2025
-// in class
+// dsa-1: jan, 20/01/2023
 import java.util.*;
 public class Main {
     public static int[] SmallestGreaterElements(int[] arr) {
