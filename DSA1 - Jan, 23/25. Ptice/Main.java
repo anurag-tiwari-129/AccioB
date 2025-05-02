@@ -2,9 +2,9 @@
 // dsa-1: jan, 18/01/2023
 import java.util.*;
 public class Main {
-    static void ptice(int n, String key) {
-        // Write your code here and print output in this function
-    
+	static void ptice(int n, String key) {
+		// Write your code here and print output in this function
+
 		String adrian = "ABC";
 		String bruno = "BABC";
 		String goran = "CCAABB";
@@ -18,7 +18,7 @@ public class Main {
 			if(key.charAt(i) == goran.charAt(i % goran.length()))
 				no_g++;
 		}
-        
+
 		int max = Math.max(no_a, Math.max(no_b, no_g));
 		System.out.println(max);
 		if(max == no_a)
@@ -27,12 +27,12 @@ public class Main {
 			System.out.println("Bruno");
 		if(max == no_g)
 			System.out.println("Goran");
-	}  
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        String str = sc.next();
-        ptice(n, str);
-        sc.close();
-    }
+	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		String str = sc.next();
+		ptice(n, str);
+		sc.close();
+	}
 }
