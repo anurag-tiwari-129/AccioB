@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 public class Main {
 	static int isPalindrome(String str){
-        // write code here
+		// write code here
 
 		str = str.toLowerCase();
 		int s = 0, e = str.length() - 1;
@@ -21,11 +21,11 @@ public class Main {
 			}
 		}
 		return 1;
-    }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String str=sc.nextLine();
-        int result = isPalindrome(str);
-        System.out.println(result);        
-    }
+	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String str=sc.nextLine();
+		int result = isPalindrome(str);
+		System.out.println(result);
+	}
 }
