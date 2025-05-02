@@ -3,14 +3,14 @@
 import java.util.*;
 public class Main {
     static void oddEvenSort(int a[], int n){
-		// Write your code here
-
-		boolean not_Sorted = true;
+        // Write your code here
+        
+        boolean not_Sorted = true;
         // run until the array get sorted ||-----------------------------
         while (not_Sorted){
             not_Sorted = false;
 
-			// sort odd index with adjacent value ||---------------------
+            // sort odd index with adjacent value ||---------------------
             for (int i=1; i<=n-2; i=i+2)
                 if (a[i] > a[i + 1]){
                     int tem = a[i];
@@ -20,7 +20,7 @@ public class Main {
                 }
 
             // sort even index with adjacent value ||--------------------
-			for (int i=0; i<=n-2; i=i+2)
+            for (int i=0; i<=n-2; i=i+2)
                 if (a[i] > a[i + 1]){
                     int tem = a[i];
                     a[i] = a[i + 1];
@@ -28,7 +28,7 @@ public class Main {
                     not_Sorted = true;
                 }
         }
-		for(int j=0;j<n;j++)
+        for(int j=0;j<n;j++)
             System.out.print(a[j] + " ");
     }
     public static void main(String[] args) {
