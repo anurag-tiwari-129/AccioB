@@ -1,0 +1,8 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=29d70f12-0b5f-43b2-b9d8-f6d90864a588
+
+    INPUT :
+        is2 class4 a3 This1
+    OUTPUT :
+        This is a class
