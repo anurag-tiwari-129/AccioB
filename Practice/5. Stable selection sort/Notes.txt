@@ -1,0 +1,10 @@
+sitaram
+
+    INPUT :
+        6
+        5 2 1 5 6 3 
+    OUTPUT :
+        1 2 3 5 5 6
+    EXPLANATION :
+        TC - O(n * n) && SC - O(1)
+        Made Stable & not adaptive.
