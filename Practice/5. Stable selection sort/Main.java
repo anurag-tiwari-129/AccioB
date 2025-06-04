@@ -23,12 +23,12 @@ public class Main{
 
             // here item would shift to right place, will no  direct swap
             // so that, it makes code stable i.e., stable sort
-			for(int k=ind;k>i;k--)
-				if(arr[k] < arr[k - 1]){
-					int tem = arr[k];
-                	arr[k] = arr[k - 1];
-                	arr[k - 1] = tem;
-				}
+            for(int k=ind;k>i;k--)
+                if(arr[k] < arr[k - 1]){
+                    int tem = arr[k];
+                    arr[k] = arr[k - 1];
+                    arr[k - 1] = tem;
+                }
         }
         return arr;
     }
