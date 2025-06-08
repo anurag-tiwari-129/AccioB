@@ -7,4 +7,5 @@ sitaram
     OUTPUT :
         15
     EXPLANATION :
-        75 = 3 * 5 * 5 and 90 = 2 * 3 * 3 * 5. So the common factors are 3 * 5 = 15.
+        75 = 3 * 5 * 5 and 90 = 2 * 3 * 3 * 5. 
+        So the common factors are 3 * 5 = 15.
