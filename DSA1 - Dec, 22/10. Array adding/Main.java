@@ -5,7 +5,7 @@ public class Main {
     static int[] calSum(int a[], int b[], int n, int m) {
         // your code here
 
-        // initialization ||--------------------------------------------
+        // initialization ||---------------------------------------------
         int len = Math.max(n, m) + 1;
         int ans[] = new int[len];
         int a_i = n - 1;
@@ -13,20 +13,20 @@ public class Main {
         int ans_i = len - 1;
         int carry = 0;
 
-        // addition in arrays ||----------------------------------------
+        // addition in arrays ||-----------------------------------------
         while(a_i >= 0 || b_i >= 0){
             ans[ans_i] = carry;
-            // add from last of 1st array ||----------------------------
+            // add from last of 1st array ||-----------------------------
             if(a_i >= 0){
                 ans[ans_i] += a[a_i];
                 a_i--;
             }
-            // add from last of 2nd array ||----------------------------
+            // add from last of 2nd array ||-----------------------------
             if(b_i >= 0){
                 ans[ans_i] += b[b_i];
                 b_i--;
             }
-            // separate carry & one digit in cell ||--------------------
+            // separate carry & one digit in cell ||---------------------
             carry = ans[ans_i] / 10;
             ans[ans_i] = ans[ans_i] % 10;
             ans_i--;
@@ -35,7 +35,7 @@ public class Main {
         if(ans[0] != 0)
             return ans;
 
-        // if 1st item is 0, remove it ||-------------------------------
+        // if 1st item is 0, remove it ||--------------------------------
         int new_ans[] = new int[len - 1];
         int j = len - 1;
         for(int i=len-2;i>=0;i--){

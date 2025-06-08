@@ -8,7 +8,8 @@ sitaram
         0
         1
     EXPLANATION :
-        The FIBONACCI SERIES is a series of numbers in which each number is the sum of the two preceding numbers. The simplest series is 0, 1, 1, 2, 3, 5, 8, etc.
+        The FIBONACCI SERIES is a series of numbers in which each number is the sum of the two preceding numbers. 
+        The simplest series is 0, 1, 1, 2, 3, 5, 8, etc.
 
         A = 0, B = 1, C = 0, N = 3;
             N = 3;
