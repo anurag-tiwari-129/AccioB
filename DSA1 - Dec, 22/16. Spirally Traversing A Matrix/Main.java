@@ -21,10 +21,10 @@ public class Main {
         int left = 0;
         int right = mat[0].length - 1;
         
-        // 1st way, by direction ||--------------------------------------
+        // 1st way, by direction ||---------------------------------------
         int dir = 0;
         while(top <= bottom && left <= right){
-            // in top, left to right ||----------------------------------
+            // in top, left to right ||-----------------------------------
             if(dir == 0){
                 for(int j=left;j<=right;j++)
                     System.out.print(mat[top][j] + " ");
