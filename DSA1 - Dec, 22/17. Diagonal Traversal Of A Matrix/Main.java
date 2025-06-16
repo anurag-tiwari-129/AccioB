@@ -20,8 +20,8 @@ public class Main {
 
         ArrayList<Integer> ans = new ArrayList<>();
 
-        // 1st way, using for loop ||-------------------------------------
-        // upper triangle ||----------------------------------------------
+        // 1st way, using for loop ||-----------------------------------
+        // upper triangle ||--------------------------------------------
         for(int col=n-1;col>=0;col--)
             for(int row=0;row<n;row++){
                 // check the limit, n = 3
@@ -39,7 +39,7 @@ public class Main {
                 //  [__,  __,  22]
                 ans.add(mat[row][row + col]); 
             }
-        // lower triangle ||----------------------------------------------
+        // lower triangle ||--------------------------------------------
         for(int col=1;col<n;col++)
             for(int row=col;row<n;row++){
                 // [1][1 - 1] = [1][0]
@@ -50,10 +50,10 @@ public class Main {
                 //  [20,  21,  __]
                 ans.add(mat[row][row - col]);
             }
-        //----------------------------------------------------------------
+        //--------------------------------------------------------------
 
-        // 2nd way, using while loop ||-----------------------------------
-        // upper triangle ||----------------------------------------------
+        // 2nd way, using while loop ||---------------------------------
+        // upper triangle ||--------------------------------------------
         for(int col=n-1;col>=0;col--){
             int i = 0;
             int j = col;
@@ -63,7 +63,7 @@ public class Main {
                 j++;
             }
         }
-        // lower triangle ||----------------------------------------------
+        // lower triangle ||--------------------------------------------
         for(int row=1;row<n;row++){
             int j = 0;
             int i = row;

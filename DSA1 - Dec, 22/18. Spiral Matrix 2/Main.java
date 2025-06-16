@@ -11,15 +11,16 @@ class Solution {
         int bottom = n - 1;
         int left = 0;
         int right = m - 1;
-        int count = n * m; // remove overread same element ||------------
+        int count = n * m; // remove overread same element ||-----------
+        
         while(count > 0 && top <= bottom && left <= right){
-            // in left, top to bottom ||---------------------------------
+            // in left, top to bottom ||--------------------------------
             for(int i=top;i<=bottom;i++){
                 ans.add(arr.get(i).get(left));
                 count--;
             }
             left++;
-            // in bottom, left to right ||-------------------------------
+            // in bottom, left to right ||------------------------------
             if(count > 0 && left <= right){
                 for(int j=left;j<=right;j++){
                     ans.add(arr.get(bottom).get(j));
@@ -27,7 +28,7 @@ class Solution {
                 }
                 bottom--;
             }
-            // in right, bottom to top ||--------------------------------
+            // in right, bottom to top ||-------------------------------
             if(count > 0 && top <= bottom){
                 for(int i=bottom;i>=top;i--){
                     ans.add(arr.get(i).get(right));
@@ -35,7 +36,7 @@ class Solution {
                 }
                 right--;
             }
-            // in top, right to left ||----------------------------------
+            // in top, right to left ||---------------------------------
             if(count > 0 && left <= right){
                 for(int j=right;j>=left;j--){
                     ans.add(arr.get(top).get(j));

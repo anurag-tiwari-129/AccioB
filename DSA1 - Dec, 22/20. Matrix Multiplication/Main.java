@@ -22,7 +22,7 @@ public class Main {
             System.out.print("\n");
         }
     }
-	public static int[][] MatrixMultiplier(int[][] A, int[][] B) {
+    public static int[][] MatrixMultiplier(int[][] A, int[][] B) {
         // Write your code here
 
         int row = A.length;
