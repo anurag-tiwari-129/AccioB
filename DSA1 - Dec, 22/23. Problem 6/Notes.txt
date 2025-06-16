@@ -5,8 +5,8 @@ sitaram
     EXPLANATION :
         A 2D array is said to be a lower triangular matrix if all the elements above its main diagonal are zero and all the elements in the main diagonal and below that is non-zero.
         
-        Example : -1     0 0 0 0
-                  -2 6     0 0 0
-                  -3 7 1     0 0
-                  -4 8 2 4     0
-                  -5 9 3 5 6 
+        Example : -1        0  0  0  0
+                  -2  6        0  0  0
+                  -3  7  1        0  0
+                  -4  8  2  4        0
+                  -5  9  3  5  6 
