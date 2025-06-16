@@ -6,7 +6,7 @@ class Solution {
     public int[][] matrixTranspose(int[][] mat, int n) {
         // Write your code here
 
-        // for transpose, swap half diagonal matrix ||-------------------
+        // for transpose, swap half diagonal matrix ||------------------
         for(int i=0;i<n;i++){
             for(int j=i+1;j<n;j++){
                 int tem = mat[i][j];

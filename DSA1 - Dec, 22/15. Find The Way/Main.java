@@ -5,20 +5,20 @@ public class Main {
     public static int[] findTheWay(int[][] matrix) {
         // Write code here
 
-        // initialization ||---------------------------------------------
+        // initialization ||--------------------------------------------
         int ans[] = new int[2];
         int n = matrix.length;
         int m = matrix[0].length;
         int i = 0, j = 0;
         int dir = 0;
         
-        // mouse in a matrix ||------------------------------------------
+        // mouse in a matrix ||-----------------------------------------
         while(i >= 0 && i < n && j >= 0 && j < m){
-            // current location ||---------------------------------------
+            // current location ||--------------------------------------
             ans[0] = i;
             ans[1] = j;
 
-            // if at 0, move forward ||----------------------------------
+            // if at 0, move forward ||---------------------------------
             if(matrix[i][j] == 0){
                 if(dir == 0) j++; // right
                 if(dir == 1) i++; // down
@@ -26,7 +26,7 @@ public class Main {
                 if(dir == 3) i--; // up
             }
 
-            // if at 1, turn right ||------------------------------------
+            // if at 1, turn right ||-----------------------------------
             else{
                 if(dir == 0){ // right to down
                     dir = 1;

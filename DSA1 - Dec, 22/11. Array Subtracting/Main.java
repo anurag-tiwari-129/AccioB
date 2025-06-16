@@ -5,7 +5,7 @@ public class Main {
     static int[] subtract(int[] n1, int[] n2) {
         // your code here
 
-        // initialization ||---------------------------------------------
+        // initialization ||--------------------------------------------
         int ans[] = new int[Math.max(n1.length, n2.length)];
         int len = ans.length - 1;
         int dif = 0;
@@ -15,15 +15,15 @@ public class Main {
         int max_i = max.length - 1;
         int min_i = min.length - 1;
 
-        // arrange array according to their value ||---------------------
-        // (n2 = 321 > n1 = _21) || (n2 = 3_21 > n1 = 1_21) ||-----------
+        // arrange array according to their value ||--------------------
+        // (n2 = 321 > n1 = _21) || (n2 = 3_21 > n1 = 1_21) ||----------
         if((n2.length > n1.length) || (n2.length == n1.length && n2[0] > n1[0])){
             for(int i=0;i<n2.length;i++)
                 max[i] = n2[i];
             for(int i=0;i<n1.length;i++)
                 min[i] = n1[i];
         }
-        // n1 > n2 ||----------------------------------------------------
+        // n1 > n2 ||---------------------------------------------------
         else{
             for(int i=0;i<n1.length;i++)
                 max[i] = n1[i];
@@ -31,18 +31,18 @@ public class Main {
                 min[i] = n2[i];
         }
 
-        // subtraction ||------------------------------------------------
+        // subtraction ||-----------------------------------------------
         while(max_i >= 0 || min_i >= 0){
             ans[len] = dif;
             dif = 0;
             
-            // if dif = -1, it minus the max[max_i] in ans[len] ||-------
+            // if dif = -1, it minus the max[max_i] in ans[len] ||------
             if(max_i >= 0){
                 ans[len] += max[max_i];
                 max_i--;
             }
             
-            // minus ans[len] with min[min_i] ||-------------------------
+            // minus ans[len] with min[min_i] ||------------------------
             if(min_i >= 0){
                 // min[min_i] have bigger value then take carry
                 if(ans[len] < min[min_i]){
@@ -55,7 +55,7 @@ public class Main {
             len--;
         }
         
-        // remove starting 0s ||-----------------------------------------
+        // remove starting 0s ||----------------------------------------
         int ind = -1;
         for(int i=0;i<ans.length;i++)
             if(ans[i] != 0){
@@ -67,7 +67,7 @@ public class Main {
         for(int i=0;i<len;i++)
             ans_new[i] = ans[i + ind];
         
-        // if n2 > n1, put "-" in ans [] ||------------------------------
+        // if n2 > n1, put "-" in ans [] ||-----------------------------
         if((n2.length > n1.length) || (n2.length == n1.length && n2[0] > n1[0])){
             ans_new[0] *= -1;
         }

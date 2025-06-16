@@ -17,7 +17,7 @@ public class Main {
         int max = 0;
         for(int i=0;i<n;i++)
             max = Math.max(max, arr[i]);
-        // compare max with the value to print ||------------------------
+        // compare max with the value to print ||-----------------------
         for(int i=max;i>0;i--){
             for(int j=0;j<n;j++){
                 if(arr[j] >= i)
