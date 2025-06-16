@@ -10,7 +10,7 @@ class Main{
         while(test > 0){
             test--;
             int n = sc.nextInt();
-            // 1st way, using 2 loops ||---------------------------------
+            // 1st way, using 2 loops ||--------------------------------
             for(int i=0;i<n/2+1;i++){
                 for(int j=1;j<n/2+1-i;j++)
                     System.out.print("  ");
@@ -25,9 +25,9 @@ class Main{
                     System.out.print("* ");
                 System.out.println();
             }
-            // ----------------------------------------------------------
+            // ---------------------------------------------------------
             
-            // 2nd way, using 3 loops ||---------------------------------
+            // 2nd way, using 3 loops ||--------------------------------
             for(int i=0;i<n/2+1;i++){
                 for(int j=1;j<n/2+1-i;j++)
                     System.out.print("  "); // space
