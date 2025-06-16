@@ -6,7 +6,7 @@ import java.util.*;
 public class Main {
 	static int isPalindrome(String str){
 		// write code here
-
+		
 		str = str.toLowerCase();
 		int s = 0, e = str.length() - 1;
 		while(s < e){
