@@ -3,9 +3,9 @@ public class Main{
 	public static void main (String[] args) throws java.lang.Exception{
 
 		byte [] a_byte = null;
-		for(byte i : a_byte) 
-			System.out.print(i + " ");
-			// java.lang.NullPointerException
+		// for(byte i : a_byte) 
+		// 	System.out.print(i + " ");
+		// 	// java.lang.NullPointerException
             // java.lang.NullPointerException
 		System.out.println("Byte : " + a_byte); // null
 		// --------------------------------------------------------------

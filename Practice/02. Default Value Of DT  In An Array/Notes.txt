@@ -3,5 +3,5 @@ sitaram
     INPUT :
         1
     EXPLANATION :
-        OBJECT array created by the “new” keyword give default values. 
-        LITERAL array do not give anything.
+        OBJECT ARRAY : created by the “new” keyword give default values. 
+        LITERAL ARRAY : do not give anything.
