@@ -13,6 +13,7 @@ public class Main{
 		short [] a_short = null;
 		// for(short i : a_short)
 		// 	System.out.print(i + " ");
+		// 	// java.lang.NullPointerException
         //     // java.lang.NullPointerException
 		System.out.println("Short : " + a_short); // null
 		// --------------------------------------------------------------
