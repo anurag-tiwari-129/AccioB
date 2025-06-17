@@ -6,7 +6,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 
-		// default byte values ||----------------------------------------
+		// default byte values ||---------------------------------------
 		byte [] l_byte = {};
 		System.out.println(l_byte); // print address
 		for(byte i : l_byte)
@@ -16,9 +16,9 @@ public class Main {
 		System.out.println(o_byte); // print address
 		for(byte i : o_byte)
 			System.out.println(i); // print 0
-		// --------------------------------------------------------------
+		// -------------------------------------------------------------
 
-		// default short values ||---------------------------------------
+		// default short values ||--------------------------------------
 		short [] l_short = {};
 		System.out.println(l_short); // print address
 		for(short i : l_short)
@@ -28,9 +28,9 @@ public class Main {
 		System.out.println(o_short); // print address
 		for(short i : o_short)
 			System.out.println(i); // print 0
-		// --------------------------------------------------------------
+		// -------------------------------------------------------------
 
-		// default int values ||-----------------------------------------
+		// default int values ||----------------------------------------
 		int [] l_int = {};
 		System.out.println(l_int); // print address
 		for(int i : l_int)
@@ -40,9 +40,9 @@ public class Main {
 		System.out.println(o_int); // print address
 		for(int i : o_int)
 			System.out.println(i); // print 0
-		// --------------------------------------------------------------
+		// -------------------------------------------------------------
 
-		// default long values ||------------------------------------
+		// default long values ||---------------------------------------
 		long [] l_long = {};
 		System.out.println(l_long); // print address
 		for(long i : l_long)
@@ -52,7 +52,7 @@ public class Main {
 		System.out.println(o_long); // print address
 		for(long i : o_long)
 			System.out.println(i); // print 0
-		// --------------------------------------------------------------
+		// -------------------------------------------------------------
 
 		// default float values ||--------------------------------------
 		float [] l_float = {};
@@ -64,9 +64,9 @@ public class Main {
 		System.out.println(o_float); // print address
 		for(float i : o_float)
 			System.out.println(i); // print 0.0
-		// --------------------------------------------------------------
+		// -------------------------------------------------------------
 
-		// default double values ||--------------------------------------
+		// default double values ||-------------------------------------
 		double [] l_double = {};
 		System.out.println(l_double); // print address
 		for(double i : l_double)
@@ -76,9 +76,9 @@ public class Main {
 		System.out.println(o_double); // print address
 		for(double i : o_double)
 			System.out.println(i); // print 0.0
-		// --------------------------------------------------------------
+		// -------------------------------------------------------------
 
-		// default char values ||----------------------------------------
+		// default char values ||---------------------------------------
 		char [] l_char = {};
 		System.out.println(l_char); // print nothing
 		for(char i : l_char)
@@ -89,7 +89,7 @@ public class Main {
 		for(char i : o_char)
 			System.out.println(i); // print nothing 
 			// bcz that is null character which is not visible
-		// --------------------------------------------------------------
+		// -------------------------------------------------------------
 
 		// default boolean values ||------------------------------------
 		boolean [] l_bool = {};
@@ -101,7 +101,7 @@ public class Main {
 		System.out.println(o_bool); // print address
 		for(boolean i : o_bool)
 			System.out.println(i); // print false
-		// --------------------------------------------------------------
+		// -------------------------------------------------------------
 
 		// default string values ||-------------------------------------
 		String [] l_String = {};
@@ -113,7 +113,7 @@ public class Main {
 		System.out.println(o_String); // print address
 		for(String i : o_String)
 			System.out.println(i); // print null
-		// --------------------------------------------------------------
+		// -------------------------------------------------------------
 
 		// default object values ||-------------------------------------
 		Object [] l_Object = {};
