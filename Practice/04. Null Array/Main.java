@@ -33,7 +33,7 @@ public class Main{
 		float [] a_float = null;
 		// for(float i : a_float)
 		// 	System.out.print(i + " ");
-        //     // java.lang.NullPointerException
+		// 	// java.lang.NullPointerException
 		System.out.println("Float : " + a_float); // null
 		// --------------------------------------------------------------
 
