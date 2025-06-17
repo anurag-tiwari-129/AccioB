@@ -10,10 +10,10 @@ public class Main {
             array[i]= sc.nextInt();
         insertionSort(array,n);
     }
-	 static void insertionSort(int a[], int n){
+    static void insertionSort(int a[], int n){
         // Write your code here
 
-        // 1st way, stable & adaptive ||---------------------------------
+        // 1st way, stable & adaptive ||--------------------------------
         for(int i=1;i<n;i++){
             int j = i;
             while(j > 0 && a[j] < a[j - 1]){
@@ -23,9 +23,9 @@ public class Main {
                 j--;
             }
         }
-        //---------------------------------------------------------------
+        //--------------------------------------------------------------
 
-        // 2nd way, stable & make-adaptive ||----------------------------
+        // 2nd way, stable & make-adaptive ||---------------------------
         for(int i=1;i<n;i++){
             boolean swap = true; // for adaptive
             for(int j=i;j>0;j--){
@@ -40,7 +40,7 @@ public class Main {
                     break;
             }
         }
-        //---------------------------------------------------------------
+        //--------------------------------------------------------------
 
         for(int i : a)
             System.out.print(i + " ");

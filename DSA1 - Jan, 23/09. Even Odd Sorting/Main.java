@@ -6,11 +6,11 @@ public class Main {
         // Write your code here
         
         boolean not_Sorted = true;
-        // run until the array get sorted ||-----------------------------
+        // run until the array get sorted ||----------------------------
         while (not_Sorted){
             not_Sorted = false;
 
-            // sort odd index with adjacent value ||---------------------
+            // sort odd index with adjacent value ||--------------------
             for (int i=1; i<=n-2; i=i+2)
                 if (a[i] > a[i + 1]){
                     int tem = a[i];
@@ -19,7 +19,7 @@ public class Main {
                     not_Sorted = true;
                 }
 
-            // sort even index with adjacent value ||--------------------
+            // sort even index with adjacent value ||-------------------
             for (int i=0; i<=n-2; i=i+2)
                 if (a[i] > a[i + 1]){
                     int tem = a[i];
