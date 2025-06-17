@@ -6,8 +6,8 @@ class Solution {
     public boolean isToeplitzMatrix(int[][] matrix, int m, int n) {
         // write code here
         
-        // 1st way, by moving diagonally ||------------------------------
-        // flow on 1st row from right to left ||-------------------------
+        // 1st way, by moving diagonally ||-----------------------------
+        // flow on 1st row from right to left ||------------------------
         int col = n - 1;
         while(col >= 0){
             int tem = matrix[0][col];
@@ -21,7 +21,7 @@ class Solution {
             }
             col--;
         }
-        // flow on 1st column from top to down ||------------------------
+        // flow on 1st column from top to down ||-----------------------
         int row = 1;
         while(row < m){
             int tem = matrix[row][0];
@@ -35,15 +35,15 @@ class Solution {
             }
             row++;
         }
-        //---------------------------------------------------------------
+        //--------------------------------------------------------------
 
-        // 2nd way, checking diagonal elements ||------------------------
+        // 2nd way, checking diagonal elements ||-----------------------
         for(int i=0;i<m-1;i++)
             for(int j=0;j<n-1;j++)
                 // check diagonal(left to right) elements are not equal 
                 if(matrix[i][j] != matrix[i + 1][j + 1])
                     return false;
-        // --------------------------------------------------------------
+        // -------------------------------------------------------------
 
         return true;
     }

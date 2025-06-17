@@ -23,11 +23,11 @@ sitaram
             [10, 11, 12]
             [20, 21, 22]
             
-            For diagonals != 0
-                i == j : 00, 11, 22
-                i + j == n - 1 : 02, 11, 20
-            For non-diagonals == 0
-                (i != j) && (i + j != n - 1) : 01, 10, 12
+            For diagonals  !=  0
+                i  ==  j : 00, 11, 22
+                i + j  ==  n - 1 : 02, 11, 20
+            For non-diagonals  ==  0
+                (i  !=  j)  &&  (i + j  !=  n - 1) : 01, 10, 12
 
         For 4 x 4 matrix,
             [00, 01, 02, 03]
@@ -35,8 +35,8 @@ sitaram
             [20, 21, 22, 23]
             [30, 31, 32, 33]
 
-            For diagonals != 0
-                i == j : 00, 11, 22, 33
-                i + j == n - 1 : 03, 12, 21, 30
-            For non-diagonals == 0
-                (i != j) && (i + j != n - 1) : 01, 10, 20
+            For diagonals  !=  0
+                i  ==  j : 00, 11, 22, 33
+                i + j  ==  n - 1 : 03, 12, 21, 30
+            For non-diagonals  ==  0
+                (i  !=  j)  &&  (i + j  !=  n - 1) : 01, 10, 20

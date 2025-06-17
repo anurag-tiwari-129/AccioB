@@ -9,6 +9,6 @@ sitaram
         3
         Bruno
     EXPLANATION :
-        Adrian: A, B, C
-        Bruno: B, A, B, C
-        Goran: C, C, A, A, B, B
+        Adrian :  A, B, C
+        Bruno  :  B, A, B, C
+        Goran  :  C, C, A, A, B, B
