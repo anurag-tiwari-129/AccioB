@@ -6,7 +6,7 @@ public class Main{
 		// for(byte i : a_byte) 
 		// 	System.out.print(i + " ");
 		// 	// java.lang.NullPointerException
-            // java.lang.NullPointerException
+        	// java.lang.NullPointerException
 		System.out.println("Byte : " + a_byte); // null
 		// --------------------------------------------------------------
 
