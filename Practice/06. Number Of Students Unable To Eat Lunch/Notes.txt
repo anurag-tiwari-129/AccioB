@@ -1,0 +1,28 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=febd1904-f9ba-4ce3-9f66-162e3ba17474
+
+    INPUT :
+        4
+        1 1 0 0
+        0 1 0 1
+    OUTPUT :
+        0
+    INPUT :
+        6
+        1 1 1 0 0 1
+        1 0 0 0 1 1
+    OUTPUT :
+        3
+    EXPLANATION :
+        Circular and Square sandwiches referred by numbers 0 and 1 respectively. Each student either prefers square or circular sandwiches.
+            1. If the student at the front of the queue prefers the sandwich on the top of the stack, they will take it and leave the queue.
+            2. Otherwise, they will leave it and go to the queue's end.
+            3. This continues until none of the queue students want to take the top sandwich and are thus unable to eat.
+        
+        Input Format :
+            1. This line contains n(number of students).
+            2. This line contains students array elements.
+            3. This Line contains sandwiches array elements.
+        Output Format :
+            Print the no of students that are unable to eat their preferred sandwich.
