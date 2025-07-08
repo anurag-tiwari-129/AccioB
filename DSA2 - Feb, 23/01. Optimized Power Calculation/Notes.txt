@@ -1,0 +1,11 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=f1316d07-891c-4d64-99d9-fccb4a8f940c
+
+    INPUT :
+        2 3
+    OUTPUT :
+        8
+    EXPLANATION :
+        1. when power is even, 2 ^ 8 == (2 ^ 4) * (2 ^ 4).
+        2. when power is odd, 2 ^ 9 == (2 ^ 4) * (2 ^ 4) * 2.
