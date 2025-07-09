@@ -1,0 +1,15 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=cb2cd5ce-46df-4bea-9ea6-12902858badf
+
+    INPUT :
+        2
+    OUTPUT :
+        move disk 1 from rod 1 to rod 2
+        move disk 2 from rod 1 to rod 3
+        move disk 1 from rod 2 to rod 3
+    EXPLANATION :
+        if n = 2, before move 2 from source to destination,
+		    1. move 1 from source to auxiliary.
+            2. then move 2 from source to destination.
+            3. then bring back 1 from auxiliary to destination.
