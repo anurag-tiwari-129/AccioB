@@ -1,0 +1,15 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=e70008e8-edb4-469a-86bf-1c07fd728967
+
+    INPUT :
+        2
+    OUTPUT :
+        Moving ring 1 from A to C
+        Moving ring 2 from A to B
+        Moving ring 1 from C to B
+    EXPLANATION :
+        if n = 2, before move 2 from source to destination,
+            1. move 1 from source to auxiliary.
+            2. then move 2 from source to destination.
+            3. then bring back 1 from auxiliary to destination.
