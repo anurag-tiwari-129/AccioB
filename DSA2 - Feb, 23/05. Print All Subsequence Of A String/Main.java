@@ -6,8 +6,8 @@ public class Main{
     static void printSubsequence(String s) {
         // Write your code here
 
-        print(s, ""); // 1st way ||-----------------------------------
-        print(s, "", 0); // 2nd way ||------------------------------
+        print(s, ""); // 1st way
+        print(s, "", 0); // 2nd way
     }
     // 1st way ||---------------------------------------------------------
     static void print(String ques, String ans){
