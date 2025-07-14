@@ -1,0 +1,16 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=6322632b-8190-4c42-b099-016314217d72
+
+    INPUT :
+        78
+    OUTPUT :
+        tv
+        tw
+        tx
+        uv
+        uw
+        ux
+    EXPLANATION :
+        {  0,     1,     2,     3,     4,     5,     6,     7,     8,    9 }
+        {".;", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tu", "vwx", "yz"}
