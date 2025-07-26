@@ -1,0 +1,18 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=38c7e0ba-2e2e-40a2-b207-e6f6171a5fbd
+
+    INPUT :
+        123
+    OUTPUT :
+        abc
+        aw
+        lc
+    INPUT :
+        0123
+    OUTPUT :
+        
+    EXPLANATION :
+        1  2  3 -> a b c
+        1  23   -> a w
+        12 3    -> l c
