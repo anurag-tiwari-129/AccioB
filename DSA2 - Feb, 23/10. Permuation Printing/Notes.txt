@@ -1,0 +1,17 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=c9486ef1-8f65-4033-b712-afb7764c666c
+
+    INPUT :
+        bac
+    OUTPUT :
+        abc
+        acb
+        bac
+        bca
+        cab
+        cba
+    INPUT :
+        aa
+    OUTPUT :
+        aa
