@@ -1,0 +1,19 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=a65df82b-2f1d-4c01-833f-12a58d04788a
+
+    INPUT :
+        3 2
+    OUTPUT :
+        Win
+    EXPLANATION :
+        The game proceeds as follows:- 
+            Step 0:  X = 3, Y = 2;   // Basic
+            Step 1:  X = 2, Y = 3;   // X - 1
+            Step 2:  X = 4, Y = 1;   // Y - 2
+            Step 3:  X = 1, Y = 4;   // X - 3
+            Step 4:  X = 5, Y = 0;   // Y - 4
+            Step 5:  X = 0, Y = 5;   // X - 5
+            Step 6:  X = 6, Y = -1;  // Y - 6
+            
+        Y will not be able to give 6 candies in the next move. So, X will win.
