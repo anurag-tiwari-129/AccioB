@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 public class Main {
-    static void printStairPaths(int n,String pathSoFar) {
+    static void printStairPaths(int n, String pathSoFar) {
         // Write your code here
 
         if(n < 0) return;
@@ -19,6 +19,6 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        printStairPaths(n,"");
+        printStairPaths(n, "");
     }
 }
