@@ -9,7 +9,7 @@ public class Main {
             System.out.println(psf);
             return;
         }
-        // can skip bcz of for conditions
+        // can skip bcz of conditions
         if(sr > dr || sc > dc) return;
         
         // move horizontal ||---------------------------------------------
