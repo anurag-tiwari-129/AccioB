@@ -80,11 +80,14 @@ public class Main {
 
 		// default char values ||---------------------------------------
 		char [] l_char = {};
+		// Java treats it like a string and directly prints its content as characters concatenated.
 		System.out.println(l_char); // print nothing
 		for(char i : l_char)
 			System.out.println(i); // print nothing
 
 		char [] o_char = new char[n];
+		// Java treats it like a string and directly prints its content as characters concatenated.
+		// ['\u0000', '\u0000', ...] i.e., null characters
 		System.out.println(o_char); // print nothing
 		for(char i : o_char)
 			System.out.println(i); // print nothing 
