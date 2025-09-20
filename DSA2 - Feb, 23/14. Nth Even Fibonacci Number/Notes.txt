@@ -1,0 +1,20 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=b9ab1535-75ae-4b9f-b6ca-a1ae2429d630
+
+    INPUT :
+        2
+    OUTPUT :
+        8
+    EXPLANATION :
+        FIBONACCI SERIES is a series of numbers in which each number is the sum of the two preceding numbers.
+        Series : 1, 1, 2, 3, 5, 8, ...
+
+        Nth even fibonacci number means
+            1 : 2 || 2 : 8.
+            
+        Note :
+            1. Since the answer could be very large, use long datatype in JAVA to store the answer.
+            2. Also return the answer in modulo of (10 ^ 9) + 7 i.e., 1000000007.
+            3. Example : 18 : 86267571272 ( logically ).
+                              267570670 ( acc to ques ).
