@@ -1,0 +1,21 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=17bda259-2108-467d-a3c1-690d6da4e5bc
+
+    INPUT :
+        5
+    OUTPUT :
+        *   *
+         * *
+          *
+         * *
+        *   *
+    INPUT :
+        6
+    OUTPUT :
+        *    *
+         *  *
+          **
+          **
+         *  *
+        *    *
