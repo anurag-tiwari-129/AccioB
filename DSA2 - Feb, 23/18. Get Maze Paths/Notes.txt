@@ -1,13 +1,11 @@
 sitaram
     LINK :
-        https://course.acciojob.com/idle?question=bb073cbd-0873-4607-824f-35edc0041c02
+        https://course.acciojob.com/idle?question=2a53222b-7c53-4c9f-af17-549b086a742e
 
     INPUT :
-        2
-        2
+        3 3
     OUTPUT :
-        hv
-        vh
+        [hhvv, hvhv, hvvh, vhhv, vhvh, vvhh]
     EXPLANATION :
         Find all the paths to go from the top left cell to the bottom right cell.
         Make the horizontal call first, before the vertical recursive call.
