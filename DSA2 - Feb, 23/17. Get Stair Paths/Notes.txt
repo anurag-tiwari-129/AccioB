@@ -1,0 +1,8 @@
+sitaram
+    LINK :
+        https://course.acciojob.com/idle?question=56fc9309-184a-4723-b8d0-839cbef69b83
+
+    INPUT :
+        3
+    OUTPUT :
+        [111, 12, 21, 3]
