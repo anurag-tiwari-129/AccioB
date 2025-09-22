@@ -3,8 +3,7 @@ sitaram
         https://course.acciojob.com/idle?question=58bc9224-e806-42d4-a9bf-9f0beff3092a
 
     INPUT :
-        2
-        2
+        2 2
     OUTPUT :
         d1
         h1v1
